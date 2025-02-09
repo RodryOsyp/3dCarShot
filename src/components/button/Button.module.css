@@ -1,0 +1,25 @@
+.button {
+  display: flex;
+  background-color: #876de7;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 100px;
+  height: 35px;
+  color: white;
+  border: none;
+}
+.secondary {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 35px;
+  color: #896fe6;
+  border: none;
+}
+.title {
+  border-bottom: 1px solid #896fe6;
+  padding-bottom:5px;
+}

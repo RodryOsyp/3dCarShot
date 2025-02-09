@@ -1,0 +1,75 @@
+.footer {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 20px 40px;
+}
+
+.footerContainer {
+  display: flex;
+  padding: 0px 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 25px;
+}
+
+.subscribe {
+  width: 500px;
+  margin: 0;
+  font-size: 50px;
+}
+
+.input {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #9b5de5;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.carImage {
+  display: flex;
+}
+
+.icons {
+  display: flex;
+  font-size: 25px;
+  gap: 20px;
+}
+.icon {
+  color: aliceblue;
+  border-radius: 50%;
+  background-color: #161616;
+  width: 30px;
+  height: 30px;
+}
+.icon:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  color: #161616;
+  border-radius: 50%;
+}
+
+.copyright {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  justify-content: center;
+}

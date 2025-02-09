@@ -1,0 +1,47 @@
+
+.img{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    position: absolute;
+    bottom: 120px;
+}
+.text{
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    right: 40px;
+}
+.nider1{
+    display: flex;
+    display: flex;
+    background-color: grey;
+    border-radius: 50% ;
+    width: 40px;
+    height: 40px;
+    border: 6px solid white;
+    position: relative;
+}
+.nider2{
+    display: flex;
+    display: flex;
+    background-color: grey;
+    border-radius: 50% ;
+    width: 40px;
+    height: 40px;
+    border: 6px solid white;
+    position: relative;
+    right: 20px;
+}
+.nider3{
+    display: flex;
+    display: flex;
+    background-color: grey;
+    border-radius: 50% ;
+    width: 40px;
+    height: 40px;
+    border: 6px solid white;
+    position: relative;
+    right: 40px;
+}

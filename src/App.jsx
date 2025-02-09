@@ -1,15 +1,17 @@
 import "./App.css";
-import { Button } from "./components/button";
-import { Header } from "./components/header";
-import { Footer } from "./components/footer";
+import { Button, Header, Footer, Home, Corvette, Hero } from "./components";
+import Bages from "./components/bages/Bages";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Button />
+    <div className="App">
+      <Header>
+        <Button title="Contact Us" />
+      </Header>
+      <Home />
+      <Hero/>
       <Footer />
-    </>
+    </div>
   );
 }
 

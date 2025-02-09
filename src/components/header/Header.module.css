@@ -1,0 +1,25 @@
+.header{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 25px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-weight: 900;
+}
+.logo{
+    display: flex;
+    font-weight: 700;
+    font-size: 30px;
+}
