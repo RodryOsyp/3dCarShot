@@ -43,7 +43,7 @@ const Home = () => {
             className={hold === "gold" ? style.goldActive : style.gold}
           ></button>
         </div>
-        <Canvas className={style.corvette}>
+        {/* <Canvas className={style.corvette}>
           <PresentationControls
             global config={{ mass: 2, tension: 500 }}
             snap={{ mass: 4, tension: 1500 }}
@@ -69,7 +69,7 @@ const Home = () => {
             shadow-mapSize-height={2048}
             color={hold}
           />
-        </Canvas>
+        </Canvas> */}
       </div>
     </div>
   );
